@@ -6,7 +6,7 @@
   <div class="well">
     {{#each model as |article|}}
     <h2>{{article.title}}</h2>
-    {{article.image}}
+    <img src={{article.image}} alt={{article.title}}>
       <p>
         by <strong>{{article.author}}</strong>
       </p>
@@ -15,6 +15,5 @@
     {{/each}}
   </div>
   <div class="well">
-    <h3>Add a new Article</h3>
   </div>
 </div>
