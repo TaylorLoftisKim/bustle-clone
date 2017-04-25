@@ -1,0 +1,5 @@
+{{#if isLinkShowing}}
+  {{#link-to 'new-article'}}New Article{{/link-to}}
+{{else}}
+  <button type="button" class="btn btn-primary active" {{action 'linkShow'}}>Admin</button>
+{{/if}}

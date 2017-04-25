@@ -1,3 +1,7 @@
 .well {
   width: auto;
 }
+
+.button {
+  float: right;
+}
